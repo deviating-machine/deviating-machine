@@ -1,5 +1,5 @@
 # Deviating-Machine
-A machine that deviated from the line of reasoning.
+A machine that deviates from the line of reasoning.
 
 In order to launch it from the command line or as a Python subprocess:
 ```bash

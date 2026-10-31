@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "deviating-machine"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
 ]
-description = "A machine that deviated from the line of reasoning."
+description = "A machine that deviates from the line of reasoning."
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers=[
@@ -24,6 +24,7 @@ dependencies = [
 
 [project.scripts]
 deviating-machine = "deviating_machine.cli:run"
+deviate = "deviating_machine.cli:run"
 
 [project.urls]
 "Homepage" = "https://github.com/deviating-machine/deviating-machine"
